@@ -1,0 +1,35 @@
+.bjp{
+    text-align: center;
+    background-color: rgb(118, 194, 124);
+}
+.object{
+    text-align: center;
+    font-family: bold;
+    font-size: 20px;
+    text-decoration: darkgreen;
+    text-decoration: aliceblue;
+}
+.container{
+    margin:10px auto;
+    width: 50%;
+    padding: 8px;
+}
+img{
+    float: right;
+    width: 300px;
+    height: 260px;
+    padding: 0 10px 0 0;
+    margin: 10px;
+    border-radius: 150px;
+}
+.text{
+    text-align: left
+}
+.images{
+ display: flex;
+ width: 30%;
+   margin-left: 30px;
+}
+#rjd{
+    text-decoration-color: antiquewhite;
+}

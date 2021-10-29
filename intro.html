@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>image with introduction</title>
+    <style>
+        #div1{
+            /* background-color: paleturquoise; */
+            width: 50%;
+            float: left;
+            height: 700px;
+        }
+        #div2{
+            
+            /* background-color: paleturquoise; */
+            width: 50%;
+            float:right;
+            height: 700px;
+
+        }
+    
+#votecast
+{
+    
+    position: absolute;
+    top:78%;
+    left: 66%;
+}
+
+        body{
+           background-color:white;
+        }
+       h1{
+           font-size: 2.1rem;
+           line-height: 1.4;
+           letter-spacing: 0.5rem;
+           text-align: center;
+           color: white;
+           margin: 50px;
+       }
+       .maindiv{
+           width: 70%;
+           height: 350px;
+           position: absolute;
+           left: 20%;
+           top: 17%;
+           transform: translate(-5%, -5%);
+           background-image: url('image.jpg');
+           background-size: 100% 100%;
+           box-shadow: 1px 2px 10px 5px white;
+           animation: slider 9s infinite linear;
+           font-size: left;
+
+       }
+       @keyframes slider{
+           0%{background-image: url('instruction1.png');}
+             50%{ background-image: url('instruction3.png');}  
+             50%{background-image:url('instruction4.png');}
+             /* 70%{background-image: url('image.jpg');} */
+             60%{background-image: url('img5.jpg');}
+           }
+   </style> 
+
+</head>
+<body>
+    <h2 style="color: black;" align="center"><b><i><u>GUIDELINES  FOR  VOTE  CASTING</u></i></b></h2>
+
+    <div class="container-fluid">
+        <div class="row">
+
+<div id="div1" class="col-sm-6"><br>
+
+<ol>
+
+<li> After Login through Secret Pin. Ypu are Welcome in Instruction page for <b>VOTE CASTING</b></li><br>
+<li>In VOTE CASTING Page, Your Profile will show, that you are enter personal details in Registration Page.  <i>  i.e  Profile Photo, Name, Aadhar No. , Voter Id , Mobile No.</i></li><br>
+<li>After entering in Vote Casting Page, You can also see your regional<i> Party No., Party name, Candidate name, Party Symbol and VOTE Button.</i></li><br>
+<li>See All Party/Candidate then you Can Select any Party/Candidate (Your Individual Choice) then you can Click on Respective VOTE Button.</li><br>
+<li>After Clicking on Respective VOTE Button , you got a Sound (i.e <b>Beep Sound</b>) and Also You got a <b>OTP</b> on E-mail for Successful Vote Casting. If <i>You can't enter OTP </i>for vote casting then <i>Your vote is NOT Counted</i> in Our System.  </li><br>
+<li>After Enter a OTP Click on Submit Button.Then your Valuable VOTE is Counted in our System.</li><br>
+<li>After Click On Submit OTP then You are<b> Logout</b> for <i>Vote Casting for respective Election.</i></li><br><br>
+<h5 style="text-align: center;"><i>Click on <b>"Go For Vote Casting"</b> Button for Vote Casting Page.</i></h5>
+
+</ol>
+</div>
+
+<div id="div2" class="col-sm-6"> 
+    <a href="voting_welcom.php"> <button class="btn btn-primary" id="votecast">Go For Vote Casting </button></a>
+  <!-- <form id="votecast">
+    <input type="submit" class="btn btn-primary form-control" value="Go For Vote Casting">
+  </form> -->
+
+    <div class="maindiv"> </div>
+   </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

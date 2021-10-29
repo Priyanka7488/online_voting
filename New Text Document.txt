@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+crossorigin="anonymous">
+<title>vote</title>
+<style>
+.parent{
+width:350px;
+height: 420px;
+border:0px solid maroon;
+margin: 250px;
+padding: 50px;
+background-color:pink;
+}
+</style>
+</head>
+<body>
+<div class="parent">
+<div class="row">
+<div class="col-sm-5">
+<div class="dropdown" align="left">
+<button class="btn btn-success btn-lg dropdown-toggle" type="button"
+id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" ariaexpanded="
+false">
+BJP
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+align="left">
+<a class="dropdown-item" href="#">JDU</a>
+<a class="dropdown-item" href="#">AAP</a>
+<a class="dropdown-item" href="#">NCP</a>
+</div>
+</div>
+</div>
+<div align="right" class="col-sm-7">
+<a align="center" href="#" class="btn btn-light mr-4">CHECK<a>
+</div><br><br><br><br><br><br><br><br><br><br>
+<button type="button" class="btn btn-success">Ok</button>
+<div align="right" class="col-sm-8"><br><br><br><br><br><br><br><br><br><br>
+<a align="center" href="#" class="btn btn-danger mr-4">Logout<a>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-
+KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+
+11/22/2020 candidate1.html
+localhost:4649/?mode=htmlmixed 2/2
+crossorigin="anonymous"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
